@@ -92,12 +92,4 @@ This project is a Google Search clone built using React and Tailwind CSS. The ma
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-### How to Use This Template:
-
-1. Replace the repository URL in the "Clone the repository" section with your actual GitHub repo URL.
-2. Update the "Project Structure" section if your file structure differs.
-3. Add any additional sections or details specific to your project.
-
-This `README.md` provides an overview of your project, instructions for setup, and insights into what you've learned, making it easy for others to understand and use your work.
