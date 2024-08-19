@@ -1,5 +1,8 @@
 # Google Search Clone
 
+![image](https://github.com/user-attachments/assets/61f403be-04cb-4fc9-9e8c-275aef3ef515)
+
+
 This project is a Google Search clone built using React and Tailwind CSS. The main objective of this project is to gain a clear understanding of React hooks and Context API by implementing a simplified version of a search engine interface.
 
 ## Table of Contents
