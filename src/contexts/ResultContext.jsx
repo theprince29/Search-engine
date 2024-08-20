@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react';
+const apiKey = import.meta.env.VITE_API_KEY; 
 
 export const ResultContext = createContext();   
 
@@ -6,14 +7,13 @@ export const ResultContextProvider = ({ children }) => {
     const [result, setResult] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
-
     const getResult = async (searchTerm) => {
         setIsLoading(true);
         const url = `https://google-search74.p.rapidapi.com/?query=${searchTerm}&limit=10&related_keywords=true`;
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': process.env.API_KEY,
+                'x-rapidapi-key': apiKey,
                 'x-rapidapi-host': 'google-search74.p.rapidapi.com'
             }
         };
